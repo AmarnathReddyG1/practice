@@ -133,6 +133,18 @@
             <hashTree/>
           </hashTree>
         </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Think Time" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">0</stringProp>
+        </TestAction>
+        <hashTree>
+          <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Pause" enabled="true">
+            <stringProp name="ConstantTimer.delay">1000</stringProp>
+            <stringProp name="RandomTimer.range">100</stringProp>
+          </UniformRandomTimer>
+          <hashTree/>
+        </hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPS01_ProductBooking_T03_ClickonSignIN" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
@@ -226,6 +238,18 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
+        </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Think Time" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">0</stringProp>
+        </TestAction>
+        <hashTree>
+          <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Pause" enabled="true">
+            <stringProp name="ConstantTimer.delay">1000</stringProp>
+            <stringProp name="RandomTimer.range">100</stringProp>
+          </UniformRandomTimer>
+          <hashTree/>
         </hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPS01_ProductBooking_T04_ClickonLogin" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -448,6 +472,18 @@
             <hashTree/>
           </hashTree>
         </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Think Time" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">0</stringProp>
+        </TestAction>
+        <hashTree>
+          <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Pause" enabled="true">
+            <stringProp name="ConstantTimer.delay">1000</stringProp>
+            <stringProp name="RandomTimer.range">100</stringProp>
+          </UniformRandomTimer>
+          <hashTree/>
+        </hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPS01_ProductBooking_T05_SelectPet" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
@@ -548,6 +584,18 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
+        </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Think Time" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">0</stringProp>
+        </TestAction>
+        <hashTree>
+          <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Pause" enabled="true">
+            <stringProp name="ConstantTimer.delay">1000</stringProp>
+            <stringProp name="RandomTimer.range">100</stringProp>
+          </UniformRandomTimer>
+          <hashTree/>
         </hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPS01_ProductBooking_T06_SelectSubPet" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -650,6 +698,18 @@
             <hashTree/>
           </hashTree>
         </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Think Time" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">0</stringProp>
+        </TestAction>
+        <hashTree>
+          <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Pause" enabled="true">
+            <stringProp name="ConstantTimer.delay">1000</stringProp>
+            <stringProp name="RandomTimer.range">100</stringProp>
+          </UniformRandomTimer>
+          <hashTree/>
+        </hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPS01_ProductBooking_T07_SelectSubPetType" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
@@ -750,6 +810,18 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
+        </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Think Time" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">0</stringProp>
+        </TestAction>
+        <hashTree>
+          <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Pause" enabled="true">
+            <stringProp name="ConstantTimer.delay">1000</stringProp>
+            <stringProp name="RandomTimer.range">100</stringProp>
+          </UniformRandomTimer>
+          <hashTree/>
         </hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPS01_ProductBooking_T08_SelectAddtoCart" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -852,6 +924,18 @@
             <hashTree/>
           </hashTree>
         </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Think Time" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">0</stringProp>
+        </TestAction>
+        <hashTree>
+          <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Pause" enabled="true">
+            <stringProp name="ConstantTimer.delay">1000</stringProp>
+            <stringProp name="RandomTimer.range">100</stringProp>
+          </UniformRandomTimer>
+          <hashTree/>
+        </hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPS01_ProductBooking_T09_ClickonCheckout" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
@@ -945,6 +1029,18 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
+        </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Think Time" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">0</stringProp>
+        </TestAction>
+        <hashTree>
+          <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Pause" enabled="true">
+            <stringProp name="ConstantTimer.delay">1000</stringProp>
+            <stringProp name="RandomTimer.range">100</stringProp>
+          </UniformRandomTimer>
+          <hashTree/>
         </hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPS01_ProductBooking_T10_ClickonContinue" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -1144,6 +1240,18 @@
             <hashTree/>
           </hashTree>
         </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Think Time" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">0</stringProp>
+        </TestAction>
+        <hashTree>
+          <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Pause" enabled="true">
+            <stringProp name="ConstantTimer.delay">1000</stringProp>
+            <stringProp name="RandomTimer.range">100</stringProp>
+          </UniformRandomTimer>
+          <hashTree/>
+        </hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPS01_ProductBooking_T11_ClickonConfirm" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
@@ -1244,6 +1352,18 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
+        </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Think Time" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">0</stringProp>
+        </TestAction>
+        <hashTree>
+          <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Pause" enabled="true">
+            <stringProp name="ConstantTimer.delay">1000</stringProp>
+            <stringProp name="RandomTimer.range">100</stringProp>
+          </UniformRandomTimer>
+          <hashTree/>
         </hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="JPS01_ProductBooking_T12_ClickonSignOut" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -1420,6 +1540,18 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
+        </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Think Time" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">0</stringProp>
+        </TestAction>
+        <hashTree>
+          <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Pause" enabled="true">
+            <stringProp name="ConstantTimer.delay">1000</stringProp>
+            <stringProp name="RandomTimer.range">100</stringProp>
+          </UniformRandomTimer>
+          <hashTree/>
         </hashTree>
       </hashTree>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
